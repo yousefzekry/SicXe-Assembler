@@ -1,0 +1,20 @@
+0000 	SUM 	START 	0000  	  
+0000 	FIRST 	LDX 	#0  	  3
+0003 	null 	LDA 	#0  	  3
+0006 	null 	+LDB 	#TABLE2  	  3
+000a 	null 	BASE 	TABLE2  	  NO OBJ CODE
+000a 	LOOP 	ADD 	TABLE,X  	  322
+000d 	null 	ADD 	TABLE2,X  	  31790
+0010 	null 	TIX 	COUNT  	  31d
+0013 	null 	JLT 	LOOP  	  3a
+0016 	null 	+STA 	TOTAL  	  32f00
+001a 	null 	RSUB 	null  	  33
+001d 	COUNT 	RESW 	1  	  NO OBJ CODE
+0020 	TABLE 	RESW 	2000  	  NO OBJ CODE
+1790 	TABLE2 	RESW 	2000  	  NO OBJ CODE
+2f00 	TOTAL 	RESW 	1  	  NO OBJ CODE
+2f03 	blank 	blank 	END  	  
+2f06 	null 	null 	null  	  null
+2f06 	null 	null 	null  	  null
+2f06 	null 	null 	null  	  null
+2f06 	null 	null 	null  	  null
